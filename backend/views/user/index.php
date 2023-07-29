@@ -2,6 +2,7 @@
 
 /**
  * @var $data
+ * @var $params 'global variable' -> set it in common/config/params-local.php witch is a gitignore file
  */
 
 $sort = 'asc';
