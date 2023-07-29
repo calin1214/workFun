@@ -14,6 +14,8 @@ class UserController
      */
     public function index()
     {
+        global $params;
+
         $userModel = new UserModel();
         $data = $userModel->getAllWithPagination();
 

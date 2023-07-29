@@ -1,6 +1,8 @@
 <?php
 require_once '../common/config/db-init.php';
 
+$params = require __DIR__ . '../../common/config/params-local.php';
+
 $requestUri = $_SERVER['REQUEST_URI'];
 
 // Extract the path from the request URI and remove any query parameters

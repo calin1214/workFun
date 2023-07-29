@@ -42,7 +42,7 @@ if (isset($_GET['sort'])) {
                 <td><?php echo $user['email'] ?></td>
                 <td>
                     <a href="#" class="image-link">
-                        <img src="<?php echo 'http://work.frontend/web/images/' . $user['image']; ?>"
+                        <img src="<?php echo "{$params['frontendUrl']}/web/images/{$user['image']}"; ?>"
                              alt="<?php echo $user['image']; ?>">
                     </a>
                 </td>
